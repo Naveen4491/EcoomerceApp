@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("naveen")
+        
+        let mapview = mapviewcontroller()
+        print(mapview)
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
